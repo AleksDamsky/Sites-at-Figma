@@ -72,6 +72,7 @@ body {
   background: #fff;
   border: #fff 1px solid;
   border-radius: 10px;
+  background-repeat: no-repeat;
 }
 
 .main-header {
