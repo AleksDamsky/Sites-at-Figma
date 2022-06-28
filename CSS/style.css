@@ -57,17 +57,17 @@ table {
 
 body {
   position: relative;
-  width: 1600px;
+  width: 1440px;
   height: 1200px;
   background: linear-gradient(121.63deg, #875EFF 2.17%, rgba(83, 29, 238, 0.651031) 59.11%, rgba(94, 38, 253, 0.42) 96.81%);
-  font-family: 'Gorditas', cursive;
+  font-family: 'Gordita', cursive;
 }
 
 .main {
   position: absolute;
   width: 1440px;
   height: 1024px;
-  left: 80px;
+  left: 150px;
   top: 80px;
   background: #fff;
   border: #fff 1px solid;
@@ -129,5 +129,62 @@ body {
   border-radius: 25px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+.main-container {
+  width: 750px;
+  position: absolute;
+  display: block;
+  top: 270px;
+  left: 350px;
+}
+
+.main-row {
+  display: block;
+  text-align: center;
+}
+
+.main-footer {
+  position: absolute;
+  width: 1440px;
+  height: 50px;
+  top: 974px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  right: 50px;
+}
+
+.main-item {
+  margin-left: 30px;
+}
+
+.main-link {
+  color: #272727;
+  text-decoration: none;
+}
+
+.idealHome {
+  font-size: 70px;
+  font-weight: 700;
+  padding-bottom: 32px;
+  letter-spacing: -0.4px;
+}
+
+.rowContent {
+  font-size: 22px;
+  line-height: 36px;
 }
 /*# sourceMappingURL=style.css.map */
