@@ -147,15 +147,23 @@ body {
 
 .main-footer {
   position: absolute;
-  width: 1440px;
-  height: 50px;
-  top: 974px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1440px;
+  height: 51px;
+  top: 974px;
+  font-size: 14px;
+}
+
+.main-housen {
+  margin-left: 115px;
 }
 
 .main-list {
@@ -166,6 +174,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   right: 50px;
+  margin-right: 150px;
 }
 
 .main-item {

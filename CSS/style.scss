@@ -138,17 +138,25 @@ body{
 
 	&-footer{
 		position: absolute;
-		width: 1440px;
-		height: 50px;
-		top: 974px;
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
+		width: 1440px;
+		height: 51px;
+		top: 974px;
+		font-size: 14px;
+		
 	};
+
+	&-housen{
+		margin-left: 115px;
+	}
 
 	&-list{
 		display: flex;
 		justify-content: space-between;
 		right: 50px;
+		margin-right: 150px;
 	};
 
 	&-item{
@@ -173,3 +181,5 @@ body{
 	font-size: 22px;
 	line-height: 36px;
 };
+
+
