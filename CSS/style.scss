@@ -167,6 +167,21 @@ body{
 		color: $dark;
 		text-decoration: none;
 	}
+
+	&-Btn__luminous{
+		position: absolute;
+		box-sizing: border-box;
+	};
+
+	&-lumos{
+		border: none;
+		outline: none;
+		background: #FFF;
+	}
+
+	&-lumos_link{
+	text-decoration: none;
+	}
 }
 
 
@@ -181,5 +196,3 @@ body{
 	font-size: 22px;
 	line-height: 36px;
 };
-
-

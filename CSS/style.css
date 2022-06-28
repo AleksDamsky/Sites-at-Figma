@@ -186,6 +186,22 @@ body {
   text-decoration: none;
 }
 
+.main-Btn__luminous {
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-lumos {
+  border: none;
+  outline: none;
+  background: #FFF;
+}
+
+.main-lumos_link {
+  text-decoration: none;
+}
+
 .idealHome {
   font-size: 70px;
   font-weight: 700;
