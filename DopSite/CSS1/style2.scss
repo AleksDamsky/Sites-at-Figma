@@ -1,0 +1,118 @@
+//Импорт обнуления
+@import '../../CSS/reset.scss';
+
+
+//переменные
+$blueColor: #446DF6;
+$liteBlackColor: #3A3A3A;
+$liteGrey: #686868;
+$liteWhite:  #E9ECF5;
+$blueColor2: #141B41;
+$darkGrey: #72727E;
+$snowColor: #F7F8FD;
+
+
+//Миксин (мой первый)
+@mixin buttonMix {
+    font-size: $z;
+    background-color: $x;
+    border-radius: $c;
+}
+
+
+//Импорт шрифта
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Gorditas&family=Josefin+Sans:wght@200&family=Montserrat:wght@200&family=Mukta:wght@200&family=Red+Hat+Mono:wght@300&family=Rubik+Glitch&family=Spline+Sans+Mono:wght@300&family=Titillium+Web:wght@200&display=swap');
+
+
+//начало верстки
+body{
+    width: 1340px;
+    position: relative;
+    background-color: $snowColor;
+}
+
+
+//Основной блок
+.mainBlock{
+    width: 100%;
+    position: absolute;
+
+
+    //Шапка
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        margin: 25px 135px 0 135px;
+        align-items: center
+    };
+
+
+    //Лого
+    &__logo{
+       
+    }
+
+
+    //Список <nav>
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+    };
+
+
+    //элементы списка
+    &__item{
+        padding-right: 45px;
+    };
+
+
+    //ссылки списка
+    &__link{
+        text-decoration: none;
+        color: $liteGrey;
+    }
+
+
+    //кнопка 
+    &__getAccess{
+        color: $blueColor;
+        border: 1px solid rgba(128, 128, 128, 0.178);
+        border-radius: 6px;
+        background: $snowColor;
+        padding: 10px;
+    };
+
+    &__getAccess:hover{
+        letter-spacing: 2px;
+        transition: all 0.5s;
+        background-color: #E9ECF5;
+    };
+
+    
+    //Первая секция
+    &__sectionOne{
+        position: absolute;
+        display: block;
+        font-weight: 400;
+        line-height: 40px;
+        color: $blueColor2;
+    };
+
+
+    //Заглавие первой секции
+    &__findService{
+        position: absolute;
+        width: 624px;
+        top: 222px;
+        left: 135px;
+        font-size: 30px; 
+        padding-bottom: 20px;
+    }
+
+    &__textFindService{
+        font-size: 24px;
+        padding-bottom: 30px;
+    }
+}
+
