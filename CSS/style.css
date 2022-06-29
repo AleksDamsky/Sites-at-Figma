@@ -188,17 +188,108 @@ body {
 
 .main-Btn__luminous {
   position: absolute;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 200px;
+  left: 720px;
 }
 
-.main-lumos {
-  border: none;
-  outline: none;
-  background: #FFF;
+.main-btn {
+  background: #FFFF;
+  border: 1px solid #6935FD;
+  text-transform: uppercase;
+  border-radius: 25px;
+  padding: 10px 30px 10px 30px;
+  -webkit-box-shadow: 4px 4px 5px #6935FD;
+          box-shadow: 4px 4px 5px #6935FD;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-.main-lumos_link {
+.main-btn:before {
+  content: '';
+  border-radius: 100px;
+  min-width: calc(150px + 12px);
+  min-height: calc(40px + 12px);
+  border: 3px solid #6935FD;
+  -webkit-box-shadow: 0 0 60px #6935FD;
+          box-shadow: 0 0 60px #6935FD;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s;
+}
+
+.main-btn:hover, .main-btn:focus {
+  color: #4e23c4;
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+}
+
+.main-btn:hover:before, .main-btn:focus:before {
+  opacity: 1;
+}
+
+.main-btn::after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: 3px solid #4e23c4;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-animation: ring 1.5s infinite;
+          animation: ring 1.5s infinite;
+}
+
+.main-btn:hover:after, .main-btn:focus:after {
+  display: none;
+  -webkit-animation: none;
+          animation: none;
+}
+
+@-webkit-keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+.main-btn_link {
   text-decoration: none;
 }
 

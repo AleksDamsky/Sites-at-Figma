@@ -121,19 +121,88 @@ body{
 
 	&-Btn__luminous{
 		position: absolute;
-		box-sizing: border-box;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		top: 200px;
+		left: 720px;
 	};
 
-	&-lumos{
-		border: none;
-		outline: none;
-		background: #FFF;
+	&-btn{
+		background: $white;
+		border: 1px solid $purple;
+		text-transform: uppercase;
+		border-radius: 25px;
+		padding: 10px 30px 10px 30px;
+		box-shadow: 4px 4px 5px $purple;
+		transition: all 0.3s;
+	};
+
+	&-btn:before{
+		content: '';
+		border-radius: 100px;
+		min-width: calc(150px + 12px);
+		min-height: calc(40px + 12px);
+		border: 3px solid $purple;
+		box-shadow: 0 0 60px $purple;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		opacity: 0;
+		transition: all .3s ease-in-out 0s;
 	}
 
-	&-lumos_link{
-	text-decoration: none;
+	&-btn:hover, &-btn:focus{
+		color: #4e23c4;
+		transform: translateY(-6px);
+	};
+
+	&-btn:hover:before, &-btn:focus:before{
+		opacity: 1;
+	};
+
+	&-btn::after{
+		content: '';
+		width: 15px;
+		height: 15px;
+		border-radius: 100%;
+		border: 3px solid #4e23c4;
+		position: absolute;
+		z-index: -1;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+  		animation: ring 1.5s infinite;
+	};
+
+	&-btn:hover:after, &-btn:focus:after{
+		display: none;
+		animation: none;
 	}
+	@keyframes ring {
+		0% {
+		  width: 30px;
+		  height: 30px;
+		  opacity: 1;
+		}
+		100% {
+		  width: 300px;
+		  height: 300px;
+		  opacity: 0;
+		}
+	  }
+
+
+	&-btn_link{
+		text-decoration: none;
+	}
+
+
+
 }
+
+	
 
 
 .idealHome{
