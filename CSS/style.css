@@ -211,6 +211,10 @@ body {
           box-shadow: 4px 4px 5px #6935FD;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  text-decoration: none;
+  font-size: 10px;
+  color: #6935FD;
+  font-weight: bold;
 }
 
 .main-btn:before {
