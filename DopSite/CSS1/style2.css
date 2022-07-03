@@ -91,6 +91,12 @@ body {
       align-self: center;
 }
 
+.mainBlock__link:hover {
+  color: #446DF6;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
 .mainBlock__item {
   padding-right: 45px;
 }
@@ -290,5 +296,10 @@ body {
   border-radius: 6px;
   color: #E9ECF5;
   padding: 15px 40px;
+}
+
+.section4 {
+  background-image: url("../../DopSite/img/section4.svg");
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=style2.css.map */

@@ -63,6 +63,12 @@ body{
         align-self: center;
     };
 
+    &__link:hover{
+        color: $blueColor;
+       
+        transition: all 0.4s;
+    }
+
 
     //элементы списка
     &__item{
@@ -148,7 +154,7 @@ body{
         width: 100%;
         display: flex;
         justify-content: space-between;
-        color: $blueColor2
+        color: $blueColor2;
     };
     
 
@@ -262,9 +268,16 @@ body{
        text-decoration: none;
        @include buttonMix();
        padding: 15px 40px;
-    }
+    };
+
+
 
     
 
 }
 
+
+.section4{
+    background-image: url('../../DopSite/img/section4.svg');
+    background-repeat: no-repeat;
+}
