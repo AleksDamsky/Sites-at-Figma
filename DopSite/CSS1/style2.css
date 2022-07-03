@@ -194,9 +194,23 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   margin-bottom: 50px;
+}
+
+.mainBlock__speedStart-list {
+  padding-left: 30px;
+}
+
+.mainBlock__speedStart-title {
+  padding-bottom: 10px;
+}
+
+.mainBlock__section3 {
+  position: absolute;
+  top: 1200px;
+  left: 500px;
 }
 /*# sourceMappingURL=style2.css.map */

@@ -177,8 +177,22 @@ body{
     &__list-item3,
     &__list-item4{
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         margin-bottom: 50px;
+    };
+
+    &__speedStart-list{
+        padding-left: 30px;
+    };
+
+    &__speedStart-title{
+        padding-bottom: 10px;
+    };
+
+    &__section3{
+        position: absolute;
+        top: 1200px;
+        left: 500px;
     }
 
 }
