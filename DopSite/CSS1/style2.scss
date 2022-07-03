@@ -270,7 +270,10 @@ body{
        padding: 15px 40px;
     };
 
-
+    &__frame1{
+        position: absolute;
+        margin-top: 1800px;
+    }
 
     
 
@@ -280,4 +283,5 @@ body{
 .section4{
     background-image: url('../../DopSite/img/section4.svg');
     background-repeat: no-repeat;
+    
 }
