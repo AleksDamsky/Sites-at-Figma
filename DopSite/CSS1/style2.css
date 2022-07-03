@@ -235,14 +235,21 @@ body {
   line-height: 25px;
 }
 
-.mainBlock__gallery3 {
-  margin-top: 30px;
+.mainBlock__gallery3-position {
+  left: 100px;
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.mainBlock__gallery3 {
+  margin-top: 80px;
+  padding-left: 20px;
+  color: #141B41;
 }
 
 .mainBlock__gallery3-item {
@@ -255,5 +262,33 @@ body {
   -webkit-box-shadow: 0px 16px 20px rgba(20, 27, 65, 0.03);
           box-shadow: 0px 16px 20px rgba(20, 27, 65, 0.03);
   padding: 20px;
+}
+
+.mainBlock__gallery3-icon {
+  padding-bottom: 20px;
+}
+
+.mainBlock__gallery3-text {
+  line-height: 20px;
+  font-weight: 350px;
+  font-size: 16px;
+}
+
+.mainBlock__button3 {
+  position: absolute;
+  top: 450px;
+  left: 530px;
+  border: none;
+  background: #F7F8FD;
+}
+
+.mainBlock__button3-link {
+  text-decoration: none;
+  font-size: 18px;
+  border: 1px solid #446DF6;
+  background-color: #446DF6;
+  border-radius: 6px;
+  color: #E9ECF5;
+  padding: 15px 40px;
 }
 /*# sourceMappingURL=style2.css.map */

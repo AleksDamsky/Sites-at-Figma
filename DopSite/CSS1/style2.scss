@@ -216,10 +216,17 @@ body{
         line-height: 25px;
     };
 
-    &__gallery3{
-        margin-top: 30px;
+    &__gallery3-position{
+        left: 100px;
+        position: absolute;
         display: flex;
         justify-content: space-between;
+    }
+
+    &__gallery3{
+      margin-top: 80px;
+      padding-left: 20px;
+      color:$blueColor2;
     };
 
     &__gallery3-item{
@@ -231,7 +238,33 @@ body{
         border-radius: 10px;
         box-shadow: 0px 16px 20px rgba(20, 27, 65, 0.03);
         padding: 20px;
+    };
+
+    &__gallery3-icon{
+        padding-bottom: 20px;
+    };
+
+    &__gallery3-text{
+        line-height: 20px;
+        font-weight: 350px;
+        font-size: 16px;
+    };
+
+    &__button3{
+        position: absolute;
+        top: 450px;
+        left: 530px;
+        border: none;
+        background: $snowColor;
+    };
+
+    &__button3-link{
+       text-decoration: none;
+       @include buttonMix();
+       padding: 15px 40px;
     }
+
+    
 
 }
 
