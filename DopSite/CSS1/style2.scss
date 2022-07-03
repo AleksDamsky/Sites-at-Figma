@@ -191,8 +191,46 @@ body{
 
     &__section3{
         position: absolute;
-        top: 1200px;
-        left: 500px;
+        top: 1250px;
+    };
+
+    &__header3{
+        text-align: center;
+        color: $blueColor2;
+        margin-left: 250px;
+    };
+
+    &__title3{
+        font-size: 32px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    };
+
+    &__text3{
+        width: 800px;
+        height: 58px;
+        font-size: 18px;
+        font-weight: 350;
+        color: $liteGrey;
+        letter-spacing: 0.3px;
+        line-height: 25px;
+    };
+
+    &__gallery3{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    };
+
+    &__gallery3-item{
+        display: block;
+        text-align: center;
+        width: 150px;
+        height: 100px;
+        border: 1px solid $snowColor;
+        border-radius: 10px;
+        box-shadow: 0px 16px 20px rgba(20, 27, 65, 0.03);
+        padding: 20px;
     }
 
 }
