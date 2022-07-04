@@ -298,13 +298,9 @@ body {
   padding: 15px 40px;
 }
 
-.mainBlock__frame1 {
-  position: absolute;
-  margin-top: 1800px;
-}
-
 .section4 {
-  background-image: url("../../DopSite/img/section4.svg");
-  background-repeat: no-repeat;
+  position: absolute;
+  top: 1800px;
+  left: 70px;
 }
 /*# sourceMappingURL=style2.css.map */
