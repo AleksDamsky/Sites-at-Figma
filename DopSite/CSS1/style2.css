@@ -298,9 +298,61 @@ body {
   padding: 15px 40px;
 }
 
+.mainBlock__section5 {
+  position: absolute;
+  top: 2370px;
+  left: 100px;
+}
+
+.mainBlock__section5-frame1 {
+  display: block;
+  width: 600px;
+}
+
+.mainBlock__section5-title {
+  color: #141B41;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.mainBlock__section5-text {
+  color: #72727E;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.mainBlock__section5-review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.mainBlock__icon {
+  border-radius: 50px;
+}
+
+.mainBlock__nameDriver {
+  font-size: 20px;
+  color: #141B41;
+  padding-left: 20px;
+}
+
+.mainBlock__driver {
+  font-size: 17px;
+  color: #686868;
+}
+
 .section4 {
   position: absolute;
   top: 1800px;
   left: 70px;
+}
+
+.line {
+  color: #686868;
 }
 /*# sourceMappingURL=style2.css.map */
