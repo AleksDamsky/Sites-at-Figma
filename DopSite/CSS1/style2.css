@@ -328,6 +328,9 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 20px;
 }
 
@@ -344,6 +347,24 @@ body {
 .mainBlock__driver {
   font-size: 17px;
   color: #686868;
+}
+
+.mainBlock__section5-frame2 {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  top: 100px;
+  left: 900px;
+  background: #446DF6;
+}
+
+.mainBlock____brackets1 {
+  width: 20px;
+  background: #446DF6;
 }
 
 .section4 {

@@ -297,6 +297,7 @@ body{
     &__section5-review{
         display: flex;
         justify-content: flex-start;
+        align-items: center;
         margin-top: 20px;
     }
 
@@ -314,8 +315,23 @@ body{
         font-size: 17px;
         color: $liteGrey;
         
+    };
+
+    // section5-frame2
+
+    &__section5-frame2{
+        position: absolute;
+        display: flex;
+        justify-content: flex-start;
+        top: 100px;
+        left: 900px;
+        background: $blueColor;
     }
 
+    &____brackets1{
+        width: 20px;
+        background: $blueColor;
+    }
 }
 
 .section4{
@@ -326,4 +342,5 @@ body{
 
 .line{
     color: $liteGrey;
-}
+};
+
