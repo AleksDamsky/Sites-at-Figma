@@ -359,12 +359,37 @@ body {
           justify-content: flex-start;
   top: 100px;
   left: 900px;
-  background: #446DF6;
 }
 
-.mainBlock____brackets1 {
+.mainBlock__brackets1 {
   width: 20px;
-  background: #446DF6;
+  border: 1px solid #F7F8FD;
+  border-radius: 30px;
+  background-color: #F7F8FD;
+  padding: 10px;
+}
+
+.mainBlock__brackets1:hover {
+  color: white;
+  background-color: #446DF6;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.mainBlock__brackets2 {
+  width: 20px;
+  border: 1px solid #F7F8FD;
+  background-color: #F7F8FD;
+  border-radius: 30px;
+  padding: 10px;
+  margin-left: 70px;
+}
+
+.mainBlock__brackets2:hover {
+  color: white;
+  background-color: #446DF6;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .section4 {

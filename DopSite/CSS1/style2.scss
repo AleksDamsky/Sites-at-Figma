@@ -325,12 +325,35 @@ body{
         justify-content: flex-start;
         top: 100px;
         left: 900px;
-        background: $blueColor;
+       
     }
 
-    &____brackets1{
+    &__brackets1{
         width: 20px;
-        background: $blueColor;
+        border: 1px solid $snowColor;
+        border-radius: 30px;
+        background-color: $snowColor;
+        padding: 10px; 
+        
+    }
+
+    &__brackets1:hover{
+        color: white;
+        background-color: $blueColor;
+        transition: all 0.3s;
+    }
+    &__brackets2{
+        width: 20px;
+        border: 1px solid $snowColor;
+        background-color: $snowColor;
+        border-radius: 30px;
+        padding: 10px;  
+        margin-left: 70px;
+    }
+    &__brackets2:hover{
+        color: white;
+        background-color: $blueColor;
+        transition: all 0.3s;
     }
 }
 
