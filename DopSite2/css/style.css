@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Gorditas&family=Josefin+Sans:wght@200&family=Montserrat:wght@200&family=Mukta:wght@200&family=Red+Hat+Mono:wght@300&family=Roboto+Slab:wght@100&family=Rubik+Glitch&family=Spline+Sans+Mono:wght@300&family=Titillium+Web:wght@200&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -52,5 +53,17 @@ del {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+body {
+  max-width: 1300px;
+  font-family: 'Alef', sans-serif;
+}
+
+.container.header__container {
+  position: relative;
+  width: 100%;
+  left: 40px;
+  right: 40px;
 }
 /*# sourceMappingURL=style.css.map */
