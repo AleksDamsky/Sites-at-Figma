@@ -355,6 +355,71 @@ body{
         background-color: $blueColor;
         transition: all 0.3s;
     }
+
+    //footer
+
+    &__footer{
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        margin: 25px 135px 0 135px;
+        align-items: center;
+        top: 2800px;
+        width: 90%;
+        left: -134px;
+        background-color: #141B41;
+        border-radius: 10px;
+        padding: 30px 50px;
+    };
+
+    &__logo--footer{
+        // padding-right: 20px;
+    }
+
+    &__list--footer{
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        // padding-left: 100px;
+    };
+
+    &__link--footer:hover{
+        color: $blueColor;
+       
+        transition: all 0.4s;
+    }
+
+
+    //элементы списка
+    &__item--footer{
+        padding-right: 45px;
+    };
+
+
+    //ссылки списка
+    &__link--footer{
+        text-decoration: none;
+        color: $liteGrey;
+    }
+
+
+    //кнопка Шапки
+    &__getAccess--footer{
+        color: $blueColor;
+        border: 1px solid rgba(128, 128, 128, 0.178);
+        border-radius: 6px;
+        background: #141B41;
+        padding: 10px;
+        // margin-left: 50px;
+    };
+
+    &__getAccess--footer:hover{
+        letter-spacing: 2px;
+        transition: all 0.5s;
+        background-color: #E9ECF5;
+    };
+
+
 }
 
 .section4{
