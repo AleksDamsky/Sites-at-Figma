@@ -4,15 +4,123 @@
 // Шрифты.
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Gorditas&family=Josefin+Sans:wght@200&family=Montserrat:wght@200&family=Mukta:wght@200&family=Red+Hat+Mono:wght@300&family=Roboto+Slab:wght@100&family=Rubik+Glitch&family=Spline+Sans+Mono:wght@300&family=Titillium+Web:wght@200&display=swap');
 
+
+//  Перменные с цветом.
+$DarkBlue : #142251;
+$LiteBlue : #2f4fb8;
+
+
+// Кнопка : Append request.
+@mixin appRequest {
+    color: $z;
+    font-size: $x;
+    border: $c;
+    border-radius: 12px;
+    background-color: $v;
+}
+
 // Первая настройка для принта.
 body{
     max-width: 1300px;
     font-family: 'Alef', sans-serif;
 }
 
-.container.header__container{
+
+// Контейнер для всех.
+.container{
     position: relative;
-    width: 100%;
+    width: 95%;
     left: 40px;
     right: 40px;
+}
+
+
+// Шапка страницы.
+.header{
+
+    &__container{
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        top: 20px;
+        font-size: 20px;
+    };
+
+    &__navigation{
+        align-self: center;
+    };
+
+    &__list{
+        display: flex;
+        justify-content: space-between;
+    };
+
+    &__list-item{
+        padding-left: 32px;
+    };
+
+    &__list-link{
+        text-decoration: none;
+        color: $DarkBlue;
+    };
+    &__list-link:hover{
+        color: $LiteBlue;
+        transition: all 0.3s;
+    }
+
+    // Append request.
+    &__link{
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+    };
+
+    // Текст кнопки.
+    &__link-text{
+    };
+
+    // ссылка текста.
+    &__link-item{
+        text-decoration: none;
+        color: $DarkBlue;
+    };
+
+    // Значок <добавить>.
+    &__link-icon{
+        background: $DarkBlue;
+        width: 34px;
+        height: 34px;
+        border: #142251 solid 1px;
+        border-radius: 25px;
+    }
+
+    // <Плюсик в иконке>
+    &__link-itemTwo{
+        position: absolute;
+        width: 10px;
+        height: 2px;
+        background: aliceblue;
+        margin-left: 12px;
+        margin-top: 15px;
+        cursor: pointer
+    };
+    &__link-itemTwo::before{
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 2px;
+        background: white;
+    };
+
+    &__link-itemTwo::before{
+        transform: rotate(90deg);
+    }
+    // &__link-itemTwo::after{
+    //     transform: rotate(90deg);
+    // }
+}
+
+// Полоса после шапки.
+.lineOne{
+    margin-top: 90px;
 }
