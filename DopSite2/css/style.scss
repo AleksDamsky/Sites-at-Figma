@@ -72,11 +72,12 @@ body{
     &__link{
         display: flex;
         justify-content: space-between;
-        align-self: center;
+        align-items: center;
     };
 
     // Текст кнопки.
     &__link-text{
+        padding-right: 15px;
     };
 
     // ссылка текста.
@@ -88,8 +89,8 @@ body{
     // Значок <добавить>.
     &__link-icon{
         background: $DarkBlue;
-        width: 34px;
-        height: 34px;
+        width: 24px;
+        height: 24px;
         border: #142251 solid 1px;
         border-radius: 25px;
     }
@@ -100,8 +101,8 @@ body{
         width: 10px;
         height: 2px;
         background: aliceblue;
-        margin-left: 12px;
-        margin-top: 15px;
+        margin-left: 7px;
+        margin-top: 11px;
         cursor: pointer
     };
     &__link-itemTwo::before{
@@ -114,13 +115,62 @@ body{
 
     &__link-itemTwo::before{
         transform: rotate(90deg);
-    }
-    // &__link-itemTwo::after{
-    //     transform: rotate(90deg);
-    // }
-}
+    };
+    
+};
 
 // Полоса после шапки.
 .lineOne{
     margin-top: 90px;
+}
+
+
+// section1.
+
+.section1{
+
+    // Общий фрейм для текста.
+    &__frame1{
+        width: 30%;
+        color: $DarkBlue;
+    }
+
+    // Текст первого фрейма.
+
+    // Заглавие.
+    &__title{
+        font-size: 45px;
+        line-height: 50px;
+    }
+    &__agent{
+        color: #1422514b;
+    };
+
+    // Текст после заглавия.
+    &__text{
+        font-size: 17px;
+        color: #1422514b;
+        margin-top: 15px;
+    };
+
+    // Кнопка для подачи информации.
+    &__button{
+        font-size: 20px;
+        margin-top: 55px;
+        display: flex;
+        // justify-content: space-around;
+        border: 1px solid #2138870F;
+        border-radius: 10px;
+        width: 250px;
+        padding: 20px 10px 20px 30px;
+        background: #2138870F;
+        align-items: center
+    };
+
+    &__button-text{
+        
+    }
+    &__button-icon{
+        padding-left: 50px;
+    }
 }
