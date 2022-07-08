@@ -204,10 +204,58 @@ body{
         padding: 10px 40px;
     };
 
+    // Блоки с ссылками.
     &__WatsAppIcon{
         padding-right: 10px;
     }
     &__linkWatsApp{
         padding-right: 30px;
+    };
+
+    // Сами ссылки.
+    &__linkWatsApp-text{
+        text-decoration: none;
+        color: $DarkBlue;
+        font-weight: 700;
+    }
+    &__linkWatsApp-text:hover{
+        color: $LiteBlue;
+        transition: all 0.3s;
+    }
+    // ----------------------
+    &__mail-link{
+        text-decoration: underline;
+        color: $DarkBlue;
+    }
+    &__mail-link:hover{
+        color: $LiteBlue;
+        text-decoration: none;
+        transition: all 0.3s;
+    }
+};
+
+// Начало кастома < section2 >
+.section2{
+    position: absolute;
+    width: 500px;
+    top: 900px;
+    left: 33%;
+
+    // Кастом заглавия.
+    &__TextBlock-title{
+        font-size: 60px;
+        font-weight: 500;
+        color: $DarkBlue;
+        margin-bottom: 20px;
+    };
+
+    // Кастом строк после заглавия.
+    &__TextBlock-text{
+        font-size: 24px;
+        font-weight: 400;
+        color: #1422516e;
+        text-align: center;
+        margin-left: -130px;
+        line-height: 30px;
     }
 }
