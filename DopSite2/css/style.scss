@@ -188,5 +188,26 @@ body{
         position: absolute;
         right: 0;
         top: 40px;
+    };
+
+    // Ссылки после картинки.
+    &__navigationPost{
+        position: absolute;
+        align-items: center;
+        top: 640px;
+        right: 20px;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #2138870F;
+        border-radius: 20px;
+        background: #2138870F;
+        padding: 10px 40px;
+    };
+
+    &__WatsAppIcon{
+        padding-right: 10px;
+    }
+    &__linkWatsApp{
+        padding-right: 30px;
     }
 }

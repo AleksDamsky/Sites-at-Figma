@@ -220,4 +220,31 @@ body {
   right: 0;
   top: 40px;
 }
+
+.section1__navigationPost {
+  position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 640px;
+  right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #2138870F;
+  border-radius: 20px;
+  background: #2138870F;
+  padding: 10px 40px;
+}
+
+.section1__WatsAppIcon {
+  padding-right: 10px;
+}
+
+.section1__linkWatsApp {
+  padding-right: 30px;
+}
 /*# sourceMappingURL=style.css.map */
