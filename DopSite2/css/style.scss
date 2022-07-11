@@ -269,4 +269,25 @@ body{
         width: 800px;
         height: 600px;
     }
+};
+
+// < section4 >
+.section4{
+    position: absolute;
+    width: 869px;
+    background: #F3F6F9;
+    top: 1450px;
+
+    // Шапка 4 блока.
+    &__header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // Стрелки 4 блока.
+    &__header-elem3{
+        display: flex;
+        justify-content: flex-start;
+        border: 1px solid white;
+    }
 }
