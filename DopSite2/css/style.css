@@ -294,4 +294,15 @@ body {
   margin-left: -130px;
   line-height: 30px;
 }
+
+.section2__PictureBlock {
+  position: absolute;
+  top: 0;
+  left: -45%;
+}
+
+.section2__PictureBlock-item {
+  width: 800px;
+  height: 600px;
+}
 /*# sourceMappingURL=style.css.map */

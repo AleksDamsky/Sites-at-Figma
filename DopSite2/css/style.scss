@@ -257,5 +257,16 @@ body{
         text-align: center;
         margin-left: -130px;
         line-height: 30px;
+    };
+
+    // Блок картинок после текста.
+    &__PictureBlock{
+        position: absolute;
+        top: 0;
+        left: -45%;
+    }
+    &__PictureBlock-item{
+        width: 800px;
+        height: 600px;
     }
 }
