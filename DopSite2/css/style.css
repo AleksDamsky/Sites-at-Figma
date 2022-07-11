@@ -331,4 +331,30 @@ body {
           justify-content: flex-start;
   border: 1px solid white;
 }
+
+.section4__span2, .section4__span1 {
+  position: relative;
+  width: 8px;
+  height: 2px;
+  background: #000;
+}
+
+.section4__span1:before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 2px;
+  margin-top: 5px;
+  background: #000;
+}
+
+.section4__span1:after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 2px;
+  margin-top: 5px;
+  margin-right: 10px;
+  background: #000;
+}
 /*# sourceMappingURL=style.css.map */
